@@ -1,27 +1,28 @@
-import React from 'react';
-import { Route } from "react-router-dom";
-import { withRouter } from 'react-router-dom';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 
-import Home from './components/Home/Home.js';
-import Photography from './components/Photography/Photography.js';
-import Projects from './components/Projects/Projects.js';
-import FoodDrink from './components/FoodDrink/FoodDrink.js';
+import Home from "./components/Home/Home.js";
+import Photography from "./components/Photography/Photography.js";
+import Projects from "./components/Projects/Projects.js";
+import FoodDrink from "./components/FoodDrink/FoodDrink.js";
 
 export const HomeRoute = "/";
-export const PhotographyRoute = "/photography/";
-export const ProjectsRoute = "/projects/";
-export const FoodDrinkRoute = "/fooddrink/";
+export const PhotographyRoute = "/photography";
+export const ProjectsRoute = "/projects";
+export const FoodDrinkRoute = "/fooddrink";
 
 class Routing extends React.Component {
-    render() {
-        return (
-            <Home>
-                <Route path={HomeRoute} exact component={Home} />
-                <Route path={PhotographyRoute} component={Photography} />
-                <Route path={ProjectsRoute} exact component={Projects} />
-                <Route path={FoodDrinkRoute} component={FoodDrink} />
-            </Home >
-        );
-    }
+  render() {
+    return (
+      <div>
+        <Routes>
+          <Route path={HomeRoute} exact element={<Home />} />
+          <Route path={PhotographyRoute} exact element={<Photography />} />
+          <Route path={ProjectsRoute} exact element={<Projects />} />
+          <Route path={FoodDrinkRoute} exact element={<FoodDrink />} />
+        </Routes>
+      </div>
+    );
+  }
 }
-export default withRouter(Routing);
+export default Routing;
