@@ -1,13 +1,14 @@
 import React from "react";
-import { Container } from "@mui/material";
-
-import Header from "./components/Header/Header.js";
 import "./App.css";
+
+import { Container } from "@mui/material";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routing from './Routing.js';
 
 function App() {
   return (
     <Container maxWidth="md">
-      <Header />
+      <Router><Routing /></Router>
     </Container>
   );
 }

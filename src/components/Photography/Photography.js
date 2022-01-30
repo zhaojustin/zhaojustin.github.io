@@ -9,9 +9,9 @@ import {
   CardMedia,
 } from "@mui/material";
 
-import Navigation from "./Navigation.js";
+import Navigation from "../Header/Navigation.js";
 
-function Header() {
+function Photography() {
   return (
     <Container>
       {/* Navigation Links */}
@@ -24,12 +24,6 @@ function Header() {
           {/* Image of Me */}
           <Grid item xs={12} sm={6}>
             <Card>
-              <CardMedia
-                component="img"
-                height="400"
-                image={require("./img/profilepic.JPG")}
-                alt="Profile Pic"
-              />
             </Card>
           </Grid>
           {/* Bio */}
@@ -37,19 +31,13 @@ function Header() {
             {/* Greeting */}
             <Box sx={{ pl: { xs: 0, sm: 3} }}>
               <Typography variant="h4">
-                {" "}Hello
+                {" "}Photography
               </Typography>
               <Typography variant="h3">I'm Justin</Typography>
               {/* Facts */}
               <Box sx={{ py: { xs: 2, sm: 4}}} >
                 <Typography variant="p" component="p">
                   NYU Stern School of Business
-                </Typography>
-                <Typography variant="p" component="p">
-                  c/o 2024
-                </Typography>
-                <Typography variant="p" component="p">
-                  southern california
                 </Typography>
               </Box>
             </Box>
@@ -60,4 +48,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Photography;
