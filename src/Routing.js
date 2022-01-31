@@ -19,15 +19,15 @@ class Routing extends React.Component {
     return (
       <div>
         {/* Navigation Links */}
-        <Box sx={{ py: { xs: 2, sm: 4 } }}>
+        <Box sx={{ py: { xs: 2, sm: 6 }, pt: { xs: 2, sm: 12 } }}>
           <Navigation />
         </Box>
         {/* Routes */}
         <Routes>
-          <Route path={HomeRoute} exact element={<Home />} />
-          <Route path={PhotographyRoute} exact element={<Photography />} />
-          <Route path={ProjectsRoute} exact element={<Projects />} />
-          <Route path={FoodDrinkRoute} exact element={<FoodDrink />} />
+          <Route path={HomeRoute} element={<Home />} />
+          <Route path={PhotographyRoute} element={<Photography />} />
+          <Route path={ProjectsRoute} element={<Projects />} />
+          <Route path={FoodDrinkRoute} element={<FoodDrink />} />
         </Routes>
       </div>
     );

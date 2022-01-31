@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Stack, Link } from "@mui/material";
+import { Box, Stack, Link, Typography } from "@mui/material";
 
 import {
   ProjectsRoute,
@@ -22,39 +22,17 @@ function Navigation() {
         direction={{ xs: "column", sm: "row" }}
         spacing={{ xs: 2, sm: 2, md: 6 }}
       >
-        <Link
-          href="#"
-          underline="none"
-          button
-          component={RouterLink}
-          to={HomeRoute}
-        >
-          About
+        <Link underline="none" component={RouterLink} to={HomeRoute}>
+          <Typography className="link">About</Typography>
         </Link>
-        <Link
-          href="#"
-          underline="none"
-          button
-          component={RouterLink}
-          to={PhotographyRoute}
-        >
-          Photography
+        <Link underline="none" component={RouterLink} to={PhotographyRoute}>
+          <Typography className="link">Photography</Typography>
         </Link>
-        <Link
-          href="#"
-          underline="none"
-          component={RouterLink}
-          to={ProjectsRoute}
-        >
-          Projects
+        <Link underline="none" component={RouterLink} to={ProjectsRoute}>
+          <Typography className="link">Projects</Typography>
         </Link>
-        <Link
-          href="#"
-          underline="none"
-          component={RouterLink}
-          to={FoodDrinkRoute}
-        >
-          Eats+Drinks
+        <Link underline="none" component={RouterLink} to={FoodDrinkRoute}>
+          <Typography className="link">Food/Drink</Typography>
         </Link>
       </Stack>
     </Box>

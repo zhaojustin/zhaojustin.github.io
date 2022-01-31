@@ -8,11 +8,11 @@ import emojiData from "react-apple-emojis/lib/data.json";
 function EmojiTypography(props) {
   return (
     <EmojiProvider data={emojiData}>
-      <Grid container direction="row" alignItems="center" columnSpacing={1}>
+      <Grid container direction="row" alignItems="center" columnSpacing={2}>
         <Grid item>
           <Emoji name={props.name} width={props.width} />
         </Grid>
-        <Grid item>
+        <Grid item sx={{ mb: 0.5 }}>
           <Typography variant={props.variant}> {props.text}</Typography>
         </Grid>
       </Grid>

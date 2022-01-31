@@ -1,13 +1,6 @@
 import React from "react";
 
-import {
-  Box,
-  Grid,
-  Container,
-  Typography,
-  Card,
-  CardMedia,
-} from "@mui/material";
+import { Box, Grid, Container, Typography, Card } from "@mui/material";
 
 function FoodDrink() {
   return (
