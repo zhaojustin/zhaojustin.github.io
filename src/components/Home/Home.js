@@ -94,7 +94,7 @@ function Home() {
             {/* Find Me */}
             <EmojiTypography
               name="call-me-hand"
-              text="find me"
+              text="my socials"
               width={32}
               variant="h4"
             />
@@ -125,7 +125,7 @@ function Home() {
                   <Link href="https://github.com/zhaojustin" underline="hover">
                     <IconTypography
                       variant="p"
-                      text="Github"
+                      text="github"
                       icon={<GitHubIcon sx={{ color: "#333" }} />}
                     />
                   </Link>
@@ -135,7 +135,7 @@ function Home() {
                   >
                     <IconTypography
                       variant="p"
-                      text="Email me!"
+                      text="email me!"
                       icon={<EmailOutlinedIcon />}
                     />
                   </Link>
