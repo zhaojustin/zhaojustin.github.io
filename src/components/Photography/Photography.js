@@ -9,15 +9,9 @@ import {
   CardMedia,
 } from "@mui/material";
 
-import Navigation from "../Header/Navigation.js";
-
 function Photography() {
   return (
     <Container>
-      {/* Navigation Links */}
-      <Box sx={{ py: { xs: 2, sm: 4 } }}>
-        <Navigation />
-      </Box>
       {/* Heading/Introduction */}
       <Box sx={{ py: { xs: 2, sm: 4 } }}>
         <Grid container spacing={2}>

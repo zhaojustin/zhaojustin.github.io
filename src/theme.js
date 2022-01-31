@@ -3,16 +3,18 @@ import { createTheme } from "@mui/material";
 const theme = createTheme({
   typography: {
     h1: {
-      fontFamily: "Roboto",
+      fontFamily: "Montserrat",
     },
     h2: {
-      fontFamily: "Roboto",
+      fontFamily: "Montserrat",
     },
     h3: {
-      fontFamily: "Roboto",
+      fontFamily: "Montserrat",
+      fontWeight: 400,
     },
     h4: {
-      fontFamily: "Roboto",
+      fontFamily: "Montserrat",
+      fontWeight: 300,
     },
     p: {
       fontFamily: "Roboto Mono",

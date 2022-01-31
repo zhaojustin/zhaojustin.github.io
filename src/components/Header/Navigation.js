@@ -22,16 +22,38 @@ function Navigation() {
         direction={{ xs: "column", sm: "row" }}
         spacing={{ xs: 2, sm: 2, md: 6 }}
       >
-        <Link underline="none" component={RouterLink} to={HomeRoute}>
+        <Link
+          href="#"
+          underline="none"
+          button
+          component={RouterLink}
+          to={HomeRoute}
+        >
           About
         </Link>
-        <Link underline="none" component={RouterLink} to={PhotographyRoute}>
+        <Link
+          href="#"
+          underline="none"
+          button
+          component={RouterLink}
+          to={PhotographyRoute}
+        >
           Photography
         </Link>
-        <Link underline="none" component={RouterLink} to={ProjectsRoute}>
+        <Link
+          href="#"
+          underline="none"
+          component={RouterLink}
+          to={ProjectsRoute}
+        >
           Projects
         </Link>
-        <Link underline="none" component={RouterLink} to={FoodDrinkRoute}>
+        <Link
+          href="#"
+          underline="none"
+          component={RouterLink}
+          to={FoodDrinkRoute}
+        >
           Eats+Drinks
         </Link>
       </Stack>
