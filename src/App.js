@@ -3,12 +3,14 @@ import "./App.css";
 
 import { Container } from "@mui/material";
 import { BrowserRouter as Router } from "react-router-dom";
-import Routing from './Routing.js';
+import Routing from "./Routing.js";
 
 function App() {
   return (
-    <Container maxWidth="md">
-      <Router><Routing /></Router>
+    <Container maxWidth="lg">
+      <Router>
+        <Routing />
+      </Router>
     </Container>
   );
 }

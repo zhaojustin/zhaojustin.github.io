@@ -23,16 +23,16 @@ function Navigation() {
         spacing={{ xs: 2, sm: 2, md: 6 }}
       >
         <Link underline="none" component={RouterLink} to={HomeRoute}>
-          <Typography className="link">About</Typography>
+          <Typography variant="link">about</Typography>
         </Link>
         <Link underline="none" component={RouterLink} to={PhotographyRoute}>
-          <Typography className="link">Photography</Typography>
+          <Typography variant="link">photography</Typography>
         </Link>
         <Link underline="none" component={RouterLink} to={ProjectsRoute}>
-          <Typography className="link">Projects</Typography>
+          <Typography variant="link">projects</Typography>
         </Link>
         <Link underline="none" component={RouterLink} to={FoodDrinkRoute}>
-          <Typography className="link">Food/Drink</Typography>
+          <Typography variant="link">food/drink</Typography>
         </Link>
       </Stack>
     </Box>

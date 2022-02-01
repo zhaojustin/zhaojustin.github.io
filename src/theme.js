@@ -9,26 +9,43 @@ const theme = createTheme({
       fontFamily: "Montserrat",
     },
     h3: {
-      fontFamily: "Montserrat",
+      fontFamily: "Roboto",
       fontWeight: 400,
     },
     h4: {
-      fontFamily: "Montserrat",
+      fontFamily: "Roboto",
       fontWeight: 300,
     },
     p: {
       fontFamily: "Roboto Mono",
     },
+    link: {
+      fontFamily: "Roboto",
+      fontWeight: 300,
+    },
   },
   components: {
-    // Name of the component
     MuiCard: {
       styleOverrides: {
-        // Name of the slot
         root: {
-          // Some CSS
           borderRadius: "15px",
           boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+        },
+      },
+    },
+    MuiTab: {
+      styleOverrides: {
+        root: {
+          fontFamily: "Roboto",
+          textTransform: "lowercase",
+        },
+      },
+    },
+    MuiTabPanel: {
+      styleOverrides: {
+        root: {
+          paddingLeft: 0,
+          margin: 0,
         },
       },
     },

@@ -1,7 +1,3 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 
-.link {
-  font-family: "Roboto Mono" !important ;
-  text-transform: lowercase !important ;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");

@@ -23,7 +23,7 @@ function Home() {
   const matches = useMediaQuery("(max-width:600px)");
 
   return (
-    <Container>
+    <Container maxWidth="md">
       {/* Heading/Introduction */}
       <Box sx={{ py: { xs: 2, sm: 4 } }}>
         <Grid
