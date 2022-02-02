@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/justinzhao.net-v3/static/css/main.9199d95c.css",
-    "main.js": "/justinzhao.net-v3/static/js/main.16995572.js",
+    "main.js": "/justinzhao.net-v3/static/js/main.2d54ae2e.js",
     "static/js/787.dd717ad4.chunk.js": "/justinzhao.net-v3/static/js/787.dd717ad4.chunk.js",
     "static/media/film13.jpg": "/justinzhao.net-v3/static/media/film13.bca826181d1ae5deeece.jpg",
     "static/media/film10.jpg": "/justinzhao.net-v3/static/media/film10.2c302b3a00faf32aac7a.jpg",
@@ -115,11 +115,11 @@
     "static/media/friends2.jpg": "/justinzhao.net-v3/static/media/friends2.70cab8379f094d37eb6a.jpg",
     "index.html": "/justinzhao.net-v3/index.html",
     "main.9199d95c.css.map": "/justinzhao.net-v3/static/css/main.9199d95c.css.map",
-    "main.16995572.js.map": "/justinzhao.net-v3/static/js/main.16995572.js.map",
+    "main.2d54ae2e.js.map": "/justinzhao.net-v3/static/js/main.2d54ae2e.js.map",
     "787.dd717ad4.chunk.js.map": "/justinzhao.net-v3/static/js/787.dd717ad4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9199d95c.css",
-    "static/js/main.16995572.js"
+    "static/js/main.2d54ae2e.js"
   ]
 }
