@@ -87,6 +87,7 @@ function Photography() {
               <Tab label="california" value="2" />
               <Tab label="hawaii" value="3" />
               <Tab label="friends" value="4" />
+              <Tab label="film" value="5" />
             </TabList>
           </Box>
           <TabPanel value="1">
@@ -100,6 +101,9 @@ function Photography() {
           </TabPanel>
           <TabPanel value="4">
             <Gallery album="friends" />
+          </TabPanel>
+          <TabPanel value="5">
+            <Gallery album="film" />
           </TabPanel>
         </TabContext>
       </Box>

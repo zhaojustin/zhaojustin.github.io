@@ -11,6 +11,9 @@ export function getImageList(album) {
   if (album == "friends") {
     return friendsImages;
   }
+  if (album == "film") {
+    return filmImages;
+  }
 }
 
 /*
@@ -24,7 +27,7 @@ to change:
 
 //nyc
 const nycImages = [];
-for (let i = 1; i <= 23; i++) {
+for (let i = 1; i <= 24; i++) {
   console.log("./albums/nyc/nyc" + i + ".jpg");
   nycImages.push({
     img: require("./albums/nyc/nyc" + i + ".jpg"),
@@ -54,10 +57,20 @@ for (let i = 1; i <= 17; i++) {
 
 //hawaii
 const hawaiiImages = [];
-for (let i = 1; i <= 24; i++) {
+for (let i = 1; i <= 37; i++) {
   console.log("./albums/hawaii/hawaii" + i + ".jpg");
   hawaiiImages.push({
     img: require("./albums/hawaii/hawaii" + i + ".jpg"),
     title: "hawaii" + i,
+  });
+}
+
+//film
+const filmImages = [];
+for (let i = 1; i <= 18; i++) {
+  console.log("./albums/film/film" + i + ".jpg");
+  filmImages.push({
+    img: require("./albums/film/film" + i + ".jpg"),
+    title: "film" + i,
   });
 }
