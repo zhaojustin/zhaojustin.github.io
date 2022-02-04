@@ -17,21 +17,19 @@ export const FoodDrinkRoute = "/fooddrink";
 class Routing extends React.Component {
   render() {
     return (
-      <HashRouter basename="/justinzhao.net-v3">
-        <div>
-          {/* Navigation Links */}
-          <Box sx={{ py: { xs: 2, sm: 6 }, pt: { xs: 2, sm: 12 } }}>
-            <Navigation />
-          </Box>
-          {/* Routes */}
-          <Routes>
-            <Route path={HomeRoute} element={<Home />} />
-            <Route path={PhotographyRoute} element={<Photography />} />
-            <Route path={ProjectsRoute} element={<Projects />} />
-            <Route path={FoodDrinkRoute} element={<FoodDrink />} />
-          </Routes>
-        </div>
-      </HashRouter>
+      <div>
+        {/* Navigation Links */}
+        <Box sx={{ py: { xs: 2, sm: 6 }, pt: { xs: 2, sm: 12 } }}>
+          <Navigation />
+        </Box>
+        {/* Routes */}
+        <Routes>
+          <Route path={HomeRoute} element={<Home />} />
+          <Route path={PhotographyRoute} element={<Photography />} />
+          <Route path={ProjectsRoute} element={<Projects />} />
+          <Route path={FoodDrinkRoute} element={<FoodDrink />} />
+        </Routes>
+      </div>
     );
   }
 }
