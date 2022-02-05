@@ -2,7 +2,7 @@
   "name": "justinzhao.net-v3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhaojustin.github.io/justinzhao.net-v3/",
+  "homepage": "https://zhaojustin.github.io",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",

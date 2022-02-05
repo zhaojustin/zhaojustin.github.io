@@ -28,7 +28,6 @@ to change:
 //nyc
 const nycImages = [];
 for (let i = 1; i <= 24; i++) {
-  console.log("./albums/nyc/nyc" + i + ".jpg");
   nycImages.push({
     img: require("./albums/nyc/nyc" + i + ".jpg"),
     title: "nyc" + i,
@@ -38,7 +37,6 @@ for (let i = 1; i <= 24; i++) {
 //cali
 const caliImages = [];
 for (let i = 1; i <= 12; i++) {
-  console.log("./albums/cali/cali" + i + ".jpg");
   caliImages.push({
     img: require("./albums/cali/cali" + i + ".jpg"),
     title: "cali" + i,
@@ -48,7 +46,6 @@ for (let i = 1; i <= 12; i++) {
 //friends
 const friendsImages = [];
 for (let i = 1; i <= 17; i++) {
-  console.log("./albums/friends/friends" + i + ".jpg");
   friendsImages.push({
     img: require("./albums/friends/friends" + i + ".jpg"),
     title: "friends" + i,
@@ -58,7 +55,6 @@ for (let i = 1; i <= 17; i++) {
 //hawaii
 const hawaiiImages = [];
 for (let i = 1; i <= 37; i++) {
-  console.log("./albums/hawaii/hawaii" + i + ".jpg");
   hawaiiImages.push({
     img: require("./albums/hawaii/hawaii" + i + ".jpg"),
     title: "hawaii" + i,
@@ -68,7 +64,6 @@ for (let i = 1; i <= 37; i++) {
 //film
 const filmImages = [];
 for (let i = 1; i <= 18; i++) {
-  console.log("./albums/film/film" + i + ".jpg");
   filmImages.push({
     img: require("./albums/film/film" + i + ".jpg"),
     title: "film" + i,
