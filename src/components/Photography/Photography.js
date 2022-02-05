@@ -41,7 +41,7 @@ function Photography() {
                 <Card>
                   <CardMedia
                     component="img"
-                    height="220"
+                    height="260"
                     image={require("./img/camera-min.jpg")}
                     alt="Camera"
                   />
@@ -54,6 +54,7 @@ function Photography() {
                   <Typography variant="h3" component="h3">
                     Photos
                   </Typography>
+                  <br></br>
                   <Link
                     href="https://www.instagram.com/zaho.jpeg/"
                     underline="hover"

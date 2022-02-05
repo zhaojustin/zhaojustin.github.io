@@ -16,6 +16,9 @@ const theme = createTheme({
       fontFamily: "Roboto",
       fontWeight: 300,
     },
+    h5: {
+      fontFamily: "Roboto",
+    },
     p: {
       fontFamily: "Roboto Mono",
     },
