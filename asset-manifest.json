@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9199d95c.css",
-    "main.js": "/static/js/main.86dc16df.js",
+    "main.css": "/static/css/main.4027ea10.css",
+    "main.js": "/static/js/main.b373c71c.js",
     "static/js/787.dd717ad4.chunk.js": "/static/js/787.dd717ad4.chunk.js",
     "static/media/film13.jpg": "/static/media/film13.bca826181d1ae5deeece.jpg",
     "static/media/film10.jpg": "/static/media/film10.2c302b3a00faf32aac7a.jpg",
@@ -58,6 +58,7 @@
     "static/media/hawaii37.jpg": "/static/media/hawaii37.7f6f5bb035d64c3dcba9.jpg",
     "static/media/hawaii31.jpg": "/static/media/hawaii31.4128dba3be70625513f5.jpg",
     "static/media/cali5.jpg": "/static/media/cali5.94d2cd3eb8c678492a8b.jpg",
+    "static/media/thumbnail.jpg": "/static/media/thumbnail.3811edfa81350ba2eb8b.jpg",
     "static/media/nyc9.jpg": "/static/media/nyc9.80de6bb3f62f0896c888.jpg",
     "static/media/film3.jpg": "/static/media/film3.c43526f3bf892d5c6588.jpg",
     "static/media/hawaii30.jpg": "/static/media/hawaii30.7063cc1b0cb9aa75f9a4.jpg",
@@ -89,6 +90,7 @@
     "static/media/nyc18.jpg": "/static/media/nyc18.e2d1b2f5158e30af8400.jpg",
     "static/media/hawaii32.jpg": "/static/media/hawaii32.b889636b393a29e89020.jpg",
     "static/media/hawaii8.jpg": "/static/media/hawaii8.9345bc090d1f2008ca0c.jpg",
+    "static/media/thumbnail.png": "/static/media/thumbnail.40711e92db1276827033.png",
     "static/media/hawaii36.jpg": "/static/media/hawaii36.be6c1dba12853194e221.jpg",
     "static/media/nyc23.jpg": "/static/media/nyc23.c51da2b6a4ea0baa8ee3.jpg",
     "static/media/cali2.jpg": "/static/media/cali2.8c86d9384472a3ff3eac.jpg",
@@ -104,6 +106,7 @@
     "static/media/friends4.jpg": "/static/media/friends4.2d7001e3ae2609b56fc8.jpg",
     "static/media/friends6.jpg": "/static/media/friends6.8b19bd10c01c892f9041.jpg",
     "static/media/friends8.jpg": "/static/media/friends8.746369a2e1cd2d8886fd.jpg",
+    "static/media/pikachu-using-computer.jpeg": "/static/media/pikachu-using-computer.62be5717de875d9878d8.jpeg",
     "static/media/friends7.jpg": "/static/media/friends7.c3ee04b573faef303655.jpg",
     "static/media/friends9.jpg": "/static/media/friends9.a04b82d024cd297b39ae.jpg",
     "static/media/friends12.jpg": "/static/media/friends12.4bdc00f4581d2003f15b.jpg",
@@ -114,12 +117,12 @@
     "static/media/friends3.jpg": "/static/media/friends3.f603beff9ac0e4319cea.jpg",
     "static/media/friends2.jpg": "/static/media/friends2.70cab8379f094d37eb6a.jpg",
     "index.html": "/index.html",
-    "main.9199d95c.css.map": "/static/css/main.9199d95c.css.map",
-    "main.86dc16df.js.map": "/static/js/main.86dc16df.js.map",
+    "main.4027ea10.css.map": "/static/css/main.4027ea10.css.map",
+    "main.b373c71c.js.map": "/static/js/main.b373c71c.js.map",
     "787.dd717ad4.chunk.js.map": "/static/js/787.dd717ad4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9199d95c.css",
-    "static/js/main.86dc16df.js"
+    "static/css/main.4027ea10.css",
+    "static/js/main.b373c71c.js"
   ]
 }
