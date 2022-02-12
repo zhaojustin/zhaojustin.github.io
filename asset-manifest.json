@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4027ea10.css",
-    "main.js": "/static/js/main.ca6eb0f3.js",
+    "main.css": "/static/css/main.cc5b7d35.css",
+    "main.js": "/static/js/main.614e490c.js",
     "static/js/787.dd717ad4.chunk.js": "/static/js/787.dd717ad4.chunk.js",
     "static/media/film13.jpg": "/static/media/film13.bca826181d1ae5deeece.jpg",
     "static/media/film10.jpg": "/static/media/film10.2c302b3a00faf32aac7a.jpg",
@@ -58,7 +58,7 @@
     "static/media/hawaii37.jpg": "/static/media/hawaii37.7f6f5bb035d64c3dcba9.jpg",
     "static/media/hawaii31.jpg": "/static/media/hawaii31.4128dba3be70625513f5.jpg",
     "static/media/cali5.jpg": "/static/media/cali5.94d2cd3eb8c678492a8b.jpg",
-    "static/media/thumbnail.jpg": "/static/media/thumbnail.3811edfa81350ba2eb8b.jpg",
+    "static/media/thumbnail.jpg": "/static/media/thumbnail.d431ae3cbcfe6d61d4ce.jpg",
     "static/media/nyc9.jpg": "/static/media/nyc9.80de6bb3f62f0896c888.jpg",
     "static/media/film3.jpg": "/static/media/film3.c43526f3bf892d5c6588.jpg",
     "static/media/hawaii30.jpg": "/static/media/hawaii30.7063cc1b0cb9aa75f9a4.jpg",
@@ -117,12 +117,12 @@
     "static/media/friends3.jpg": "/static/media/friends3.f603beff9ac0e4319cea.jpg",
     "static/media/friends2.jpg": "/static/media/friends2.70cab8379f094d37eb6a.jpg",
     "index.html": "/index.html",
-    "main.4027ea10.css.map": "/static/css/main.4027ea10.css.map",
-    "main.ca6eb0f3.js.map": "/static/js/main.ca6eb0f3.js.map",
+    "main.cc5b7d35.css.map": "/static/css/main.cc5b7d35.css.map",
+    "main.614e490c.js.map": "/static/js/main.614e490c.js.map",
     "787.dd717ad4.chunk.js.map": "/static/js/787.dd717ad4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4027ea10.css",
-    "static/js/main.ca6eb0f3.js"
+    "static/css/main.cc5b7d35.css",
+    "static/js/main.614e490c.js"
   ]
 }
